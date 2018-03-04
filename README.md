@@ -27,45 +27,45 @@ It also includes scripts you can import into Visual Studio Team Services to set 
 
 Refer to the [scripts readme](https://github.com/Azure-Samples/MyDriving/blob/master/scripts/README.md) for additional details.
 
-### a.[src](https://github.com/Azure-Samples/MyDriving/tree/master/src)
+### a. [src](https://github.com/Azure-Samples/MyDriving/tree/master/src)
 
 Open the individual solutions in their respective folders to build and deploy.
 
 More information on deploying to your own environment is given in the [Getting Started guide](docs/iot-solution-get-started.md).
 
-#### b.[src/DataFactory](https://github.com/Azure-Samples/MyDriving/tree/master/src/DataFactory)
+#### b. [src/DataFactory](https://github.com/Azure-Samples/MyDriving/tree/master/src/DataFactory)
 
 Data structure definitions used by the Data Factory service. The MyDriving system uses the Data Factory service to create an HDInsight cluster on demand. For details, refer to Chapter 8 of the [MyDriving Reference Guide](http://download.microsoft.com/download/F/E/4/FE484B73-061C-4171-B95B-D16A500BDAC6/MyDriving%20Reference%20Guide.pdf).
 
-#### c.[src/Extensions](https://github.com/Azure-Samples/MyDriving/tree/master/src/Extensions)
+#### c. [src/Extensions](https://github.com/Azure-Samples/MyDriving/tree/master/src/Extensions)
 
 An example extension to the MyDriving system that performs a the Vehicle Identification Number (VIN) lookup in the course of processing IoT data. For details, refer to Chapter 9 of the [MyDriving Reference Guide](http://download.microsoft.com/download/F/E/4/FE484B73-061C-4171-B95B-D16A500BDAC6/MyDriving%20Reference%20Guide.pdf).
 
-#### d.[src/HDInsight](https://github.com/Azure-Samples/MyDriving/tree/master/src/HDInsight)
+#### d. [src/HDInsight](https://github.com/Azure-Samples/MyDriving/tree/master/src/HDInsight)
 
 Copies of the resources the ARM templates use to configure the HDInsight cluster.
 
-#### e.[src/MobileApps](https://github.com/Azure-Samples/MyDriving/tree/master/src/MobileApps)
+#### e. [src/MobileApps](https://github.com/Azure-Samples/MyDriving/tree/master/src/MobileApps)
 
 Visual Studio 2015 solution and project files for the Android, iOS, and UWP mobile apps for MyDriving. These are implemented with Xamarin. For details, refer to Chapter 3 of the [MyDriving Reference Guide](http://download.microsoft.com/download/F/E/4/FE484B73-061C-4171-B95B-D16A500BDAC6/MyDriving%20Reference%20Guide.pdf).
 
-#### f.[src/MobileAppService](https://github.com/Azure-Samples/MyDriving/tree/master/src/MobileAppService)
+#### f. [src/MobileAppService](https://github.com/Azure-Samples/MyDriving/tree/master/src/MobileAppService)
 
 Visual Studio 2015 solution and project files for the API endpoints in Azure App Service. For details, refer to Chapter 4 of the [MyDriving Reference Guide](http://download.microsoft.com/download/F/E/4/FE484B73-061C-4171-B95B-D16A500BDAC6/MyDriving%20Reference%20Guide.pdf).
 
-#### g.[src/OBDLibrary](https://github.com/Azure-Samples/MyDriving/tree/master/src/OBDLibrary)
+#### g. [src/OBDLibrary](https://github.com/Azure-Samples/MyDriving/tree/master/src/OBDLibrary)
 
 Visual Studio 2015 projects containing the OBD client libraries for communicating with OBD dongles.
 
-#### h.[src/PowerBI](https://github.com/Azure-Samples/MyDriving/tree/master/src/PowerBI)
+#### h. [src/PowerBI](https://github.com/Azure-Samples/MyDriving/tree/master/src/PowerBI)
 
 PowerBI report definition. For details on how Power BI is used in MyDriving, refer to Chapters 6 and 8 of the [MyDriving Reference Guide](http://download.microsoft.com/download/F/E/4/FE484B73-061C-4171-B95B-D16A500BDAC6/MyDriving%20Reference%20Guide.pdf).
 
-#### i.[src/SQLDatabase](https://github.com/Azure-Samples/MyDriving/tree/master/src/SQLDatabase)
+#### i. [src/SQLDatabase](https://github.com/Azure-Samples/MyDriving/tree/master/src/SQLDatabase)
 
 Copies of the SQL scripts executed by the PowerShell script to populate the SQL databases created by the ARM templates.
 
-#### j.[src/StreamAnalytics](https://github.com/Azure-Samples/MyDriving/tree/master/src/StreamAnalytics)
+#### j. [src/StreamAnalytics](https://github.com/Azure-Samples/MyDriving/tree/master/src/StreamAnalytics)
 
 Copies of queries used by the ARM template to configure Stream Analytics jobs.
 
